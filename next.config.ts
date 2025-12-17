@@ -1,13 +1,18 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
-  output: 'export',
+  output: "export",
+
+  basePath: isProd ? "/personal_website" : "",
+  assetPrefix: isProd ? "/personal_website/" : "",
+
   images: {
     unoptimized: true,
   },
+
   typescript: {
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
     ignoreBuildErrors: true,
   },
 };

@@ -1,78 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shigraf Salik</title>
+    <!-- Security Headers via Meta Tags -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        .navbar {
-            background-color: #111;
-            padding: 15px;
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 18px;
-        }
-
-        .navbar a:hover {
-            text-decoration: underline;
-        }
-
-        .section {
-            padding: 60px 20px;
-        }
-
-        img {
-            border-radius: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="navbar">
+    <nav class="navbar">
         <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
         <a href="writings.html">Writings</a>
-    </div>
+    </nav>
 
-    <div class="section">
+    <main class="container">
+        <div class="profile">
+            <img src="SS.jpeg" alt="Shigraf Salik" width="140" height="140">
+            <h1>Shigraf Salik</h1>
+            <p class="bio">AI Engineer & Systems Builder</p>
+        </div>
 
-        <img src="SS.jpeg" width="200"><br><br>
+        <div class="content">
+            <p>
+                Shigraf is a software and machine learning engineer, Bitcoin protocol contributor, and systems builder.
+                Previously an ML Engineer at Heva AI, his work sits at the intersection of computational systems,
+                artificial
+                intelligence, cryptography, and economic philosophy.
+            </p>
+            <p>
+                He applies advances in machine learning, low-level programming, and decentralized protocols to solve
+                problems in time-series modeling, speech synthesis, scientific computing, and sovereign technology.
+            </p>
 
-        <h2>Shigraf Salik</h2>
+            <p style="margin-top: 2rem; font-family: var(--font-sans); font-weight: 500;">
+                Reach out at <a href="mailto:salikshigraf@gmail.com">salikshigraf@gmail.com</a>
+            </p>
+        </div>
 
-        <p>
-            Shigraf is a Machine Learning and AI Engineer previously working as ML engineer at Heva AI.
-            His work is at the intersection of computational cognitive science and machine learning.
-            Shigraf uses advances in machine learning to build new models to solve Text-to-Speech problems,
-            Vision Transformers to solve neural disorders.
-        </p>
-
-        <p>
-            Contact:
-            <a href="mailto:salikshigraf@gmail.com">salikshigraf@gmail.com</a>
-        </p>
-
-        <h3>Links</h3>
-
-        <a href="https://github.com/ShigrafS">GitHub</a> |
-        <a href="https://www.linkedin.com/in/shigrafsalik/">LinkedIn</a> |
-        <a href="https://www.x.com/ShigrafS/">X</a> |
-        <a href="https://medium.com/@shigrafsalik">Medium</a> |
-        <a href="https://dev.to/shigrafs">Dev.to</a> |
-        <a href="CV.pdf">Resume</a>
-
-    </div>
+        <div class="links">
+            <a href="https://github.com/ShigrafS" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/shigrafsalik/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.x.com/ShigrafS/" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+            <a href="https://medium.com/@shigrafsalik" target="_blank" rel="noopener noreferrer">Medium</a>
+            <a href="https://dev.to/shigrafs" target="_blank" rel="noopener noreferrer">Dev.to</a>
+            <a href="CV.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
+    </main>
 
 </body>
 

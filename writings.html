@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Writings | Shigraf Salik</title>
+    <!-- Security Headers via Meta Tags -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="navbar">
+    <nav class="navbar">
         <a href="index.html">Home</a>
-        <a href="writings.html">Writings</a>
-    </div>
+        <a href="projects.html">Projects</a>
+        <a href="writings.html" style="color: var(--text-color); font-weight: 600;">Writings</a>
+    </nav>
 
-    <div class="container">
+    <main class="container">
+        <h1 style="margin-bottom: 2rem;">Writings</h1>
 
-        <h1>Writings</h1>
+        <div class="blog-list">
+            <div class="blog-list-item">
+                <h3><a href="https://medium.com/@shigrafsalik/weve-failed-satoshi-nakamoto-65ea0e2b1926" target="_blank"
+                        rel="noopener noreferrer">We’ve Failed Satoshi Nakamoto</a></h3>
+                <div class="meta">14 min read &middot; Feb 2026</div>
+            </div>
 
-        <div class="blog-list-item">
-            <a href="https://medium.com/@shigrafsalik/weve-failed-satoshi-nakamoto-65ea0e2b1926">
-                We’ve Failed Satoshi Nakamoto
-            </a>
-            <div class="meta">14 min read · Feb 2026</div>
+            <div class="blog-list-item">
+                <h3><a href="https://medium.com/@shigrafsalik/we-are-living-in-a-borrowed-world-e9cfcf0c07ba"
+                        target="_blank" rel="noopener noreferrer">We Are Living in a Borrowed World</a></h3>
+                <div class="meta">4 min read &middot; Jan 28, 2026</div>
+            </div>
+
+            <div class="blog-list-item">
+                <h3><a href="https://dev.to/shigrafs/how-to-install-pairtools-properly-in-python-312-4e7c"
+                        target="_blank" rel="noopener noreferrer">How to Install pairtools Properly in Python 3.12</a>
+                </h3>
+                <div class="meta">4 min read &middot; Apr 10, 2025</div>
+            </div>
         </div>
-
-        <div class="blog-list-item">
-            <a href="https://medium.com/@shigrafsalik/we-are-living-in-a-borrowed-world-e9cfcf0c07ba">
-                We Are Living in a Borrowed World
-            </a>
-            <div class="meta">4 min read · Jan 28, 2026</div>
-        </div>
-
-        <div class="blog-list-item">
-            <a href="https://dev.to/shigrafs/how-to-install-pairtools-properly-in-python-312-4e7c">
-                How to Install pairtools Properly in Python 3.12
-            </a>
-            <div class="meta">4 min read · Apr 10, 2025</div>
-        </div>
-
-    </div>
+    </main>
 
 </body>
+
 </html>

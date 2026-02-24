@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shigraf Salik Writings</title>
+    <link>https://shigrafs.github.io/writings.html</link>
+    <description>Thoughts on tech, AI, philosophy, and society from Shigraf Salik.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shigrafs.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>We’ve Failed Satoshi Nakamoto</title>
+      <link>https://medium.com/@shigrafsalik/weve-failed-satoshi-nakamoto-65ea0e2b1926</link>
+      <description>Bitcoin Lost its Purpose. There is a digital ghost haunting the global ledger...</description>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://medium.com/@shigrafsalik/weve-failed-satoshi-nakamoto-65ea0e2b1926</guid>
+    </item>
+
+    <item>
+      <title>We Are Living in a Borrowed World</title>
+      <link>https://medium.com/@shigrafsalik/we-are-living-in-a-borrowed-world-e9cfcf0c07ba</link>
+      <description>There is a quiet, rhythmic pulse beneath the surface of our lives...</description>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://medium.com/@shigrafsalik/we-are-living-in-a-borrowed-world-e9cfcf0c07ba</guid>
+    </item>
+
+    <item>
+      <title>How to Install pairtools Properly in Python 3.12</title>
+      <link>https://dev.to/shigrafs/how-to-install-pairtools-properly-in-python-312-4e7c</link>
+      <description>A guide on properly installing the pairtools package in Python 3.12 environments.</description>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://dev.to/shigrafs/how-to-install-pairtools-properly-in-python-312-4e7c</guid>
+    </item>
+
+  </channel>
+</rss>
